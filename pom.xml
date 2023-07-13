@@ -41,10 +41,9 @@
 
                 <executions>
                     <execution>
-                        <id>report</id>
-                        <phase>verify</phase>
+                        <id>prepare-agent</id>
                         <goals>
-                            <goal>report</goal>
+                            <goal>prepare-agent</goal>
                         </goals>
                     </execution>
 
